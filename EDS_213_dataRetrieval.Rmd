@@ -1,0 +1,67 @@
+---
+title: "EDS 213 dataRetrieval"
+author: "Marie Rivers"
+date: "10/6/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(dataRetrieval)
+library(metajam)
+```
+
+```{r}
+siteNumber <- "11118500" # VENTURA R NR VENTURA
+parameterCd <- "00060" # discharge
+startData <- "2019-10-01"
+endDate <- "2020-10-05"
+
+discharge <- readNWISdv(siteNumber, parameterCd, startData, endDate)
+```
+
+```{r}
+ventura_riv_plot <- ggplot(data = discharge, aes(x = Date, y = X_00060_00003)) +
+  geom_line() +
+  labs(x = "Daily Discharge (ft cubic feet per second)", y = "Date",
+       title = "USGS 11118500 Ventura River near Ventura")
+ventura_riv_plot
+```
+```{r}
+# to pull the full record of data
+discharge_full_record <- readNWISdv(siteNumber, parameterCd, startDate = "", endDate) # use quotes with no space
+
+ventura_riv_plot_full <- ggplot(data = discharge_full_record, aes(x = Date, y = X_00060_00003)) +
+  geom_line() +
+  labs(x = "Daily Discharge (cubic feet per second)", y = "Date",
+       title = "USGS 11118500 Ventura River near Ventura")
+ventura_riv_plot_full
+```
+# metajam with `library(metajam)`
+```{r}
+# set inputs
+data_obj <- "https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3A9e123f84-ce0d-4094-b898-c9e73680eafa"
+path <- "~/Documents/UCSB_Environmental_Data_Science/EDS_213_Metadata_Standards_Data_Modeling_and_Data_Semantics/EDS_213_dataRetrieval/data"
+
+# download data and metadata
+download_d1_data(data_obj, path)
+```
+
+```{r}
+data_url <- "https://arcticdata.io/catalog/view/doi:10.18739/A2DP3X"
+# my_data <- read_d1_files("~/Documents/UCSB_Environmental_Data_Science/EDS_213_Metadata_Standards_Data_Modeling_and_Data_Semantics/EDS_213_dataRetrieval/data/doi_10.18739_A2RVOD11H_Alaska_Schools_Rentention2009_15_csv")
+```
+```{r}
+# Read Files Into R
+data_path <- metajam::download_d1_data(data_url, "~/Desktop")
+my_data <- read_d1_files("~/Desktop/doi_10.18739_A2DP3X__Alaska_Schools_Rentention2009_15")
+
+```
+
+
+
+

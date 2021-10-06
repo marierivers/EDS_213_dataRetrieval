@@ -1,0 +1,13 @@
+code,definition,attributeName,metadata_pid
+PE,Preschool,Lowest.Grade,doi:10.18739/A2RV0D11H
+KG,Kindergarten,Lowest.Grade,doi:10.18739/A2RV0D11H
+5,Fifth Grade,Lowest.Grade,doi:10.18739/A2RV0D11H
+6,Sixth Grade,Lowest.Grade,doi:10.18739/A2RV0D11H
+7,Seventh Grade,Lowest.Grade,doi:10.18739/A2RV0D11H
+9,Ninth Grade,Lowest.Grade,doi:10.18739/A2RV0D11H
+5,Fifth Grade,Highest.Grade,doi:10.18739/A2RV0D11H
+6,Sixth Grade,Highest.Grade,doi:10.18739/A2RV0D11H
+7,Seventh Grade,Highest.Grade,doi:10.18739/A2RV0D11H
+8,Eighth Grade,Highest.Grade,doi:10.18739/A2RV0D11H
+10,Tenth Grade,Highest.Grade,doi:10.18739/A2RV0D11H
+12,Twelfth Grade,Highest.Grade,doi:10.18739/A2RV0D11H

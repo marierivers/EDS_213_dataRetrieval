@@ -1,0 +1,33 @@
+attributeName,attributeDefinition,definition,measurementScale,domain,missingValueCode,missingValueCodeExplanation,id...1,unit,numberType,id...6,label...7,propertyURI,label...9,valueURI,metadata_pid
+District.Name,Shortened district name,Shortened district name,nominal,textDomain,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+District.ID,Alaska Department of Education (AK DEED) District ID,AK DEED District ID,nominal,textDomain,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+School.ID,Alaska Department of Education (AK DEED) School ID,AK DEED School ID,nominal,textDomain,"NA",Missing data,NA,NA,NA,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+School.Name,Full school name,Full school name,nominal,textDomain,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Location,Community,Community,nominal,textDomain,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Latitude,degrees,NA,interval,numericDomain,NA,NA,zPJtxRXcfn,degree,real,lsazzv2P6T,contains measurements of type,http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType,latitude coordinate,http://purl.dataone.org/odo/ECSO_00002130,doi:10.18739/A2RV0D11H
+Longitude,degrees,NA,interval,numericDomain,NA,NA,HAmK3ks3eQ,degree,real,6IoLV3oMMn,contains measurements of type,http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType,longitude coordinate,http://purl.dataone.org/odo/ECSO_00002132,doi:10.18739/A2RV0D11H
+Lowest.Grade,Lowest grade offered in school,NA,nominal,enumeratedDomain,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Highest.Grade,Highest grade offered in school,NA,nominal,enumeratedDomain,"NA",Missing data,NA,NA,NA,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Title.I.Status.Count.5yrs,Number of years school had Title I status out of 5 total years,NA,ratio,numericDomain,"NA",Missing data,NA,number,whole,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.Enrollment10.14.5yrs,Average student enrollment over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,number,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.Enroll,Standard deviation of student enrollment over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,number,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.S.Count.AYP.5yrs,Average student count for assessment over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,number,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.S.Count.AYP.5yrs,Standard deviation of student count for assessment over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,number,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.S.P.Prof.R.5yrs,Average percent of students who were proficient or better in Reading over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.S.P.Prof.R.5yrs,Standard deviation of the percent of students who were proficient or better in Reading over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.S.P.Prof.W.5yrs,Average percent of students who were proficient or better in Writing over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.S.P.Prof.W.5yrs,Standard deviation of the percent of students who were proficient or better in Writing over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.S.P.Prof.M.5yrs,Average percent of students who were proficient or better in Mathematics over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.S.P.Prof.M.5yrs,Standard deviation of the percent of students who were proficient or better in Mathematics over 5 years from sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.T.Count.5yrs,Average count of teachers over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,number,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.T.Count.5yrs,Standard deviation of count of teachers over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,number,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.T.Retention.5yrs,Average retention rate of teachers over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.Trentention.5yrs,Standard deviation of retention rate of teachers over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.Grad.5yrs,Average student graduation rate over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.Grad.5yrs,Standard deviation of student graduation rate over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.Attend.5yrs,Average student attendance rate over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.Attend.5yrs,Standard deviation of student attendance rate over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.P.S.Eth.AN.5yrs,Average percent of students who identify with ethnicity of Alaska Native/American Indian over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Stdev.P.S.Eth.AN.5yrs,Standard deviation of percent of students who identify with ethnicity of Alaska Native/American Indian over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Avg.P.S.Gender.Male.5yrs,Average percent of students who identify with gender of Male over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H
+Std.Dev.P.S.Gender.Male.5yrs,Standard deviation of percent of students who identify with gender of Male over 5 years sy10-sy14,NA,ratio,numericDomain,"NA",Missing data,NA,percent,real,NA,NA,NA,NA,NA,doi:10.18739/A2RV0D11H

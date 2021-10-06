@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="doi:10.18739/A2DP3X" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 eml.xsd" system="https://arcticdata.io">
+  <dataset>
+    <title>Alaska school characteristics and teacher retention, 2009-2015</title>
+    <creator id="3682962163378201">
+      <individualName>
+        <givenName>Ute</givenName>
+        <surName>Kaden</surName>
+      </individualName>
+      <organizationName>UAF</organizationName>
+      <address>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99709</postalCode>
+      </address>
+      <phone phonetype="voice">9077503399</phone>
+      <electronicMailAddress>ukaden@alaska.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8965-2560</userId>
+    </creator>
+    <metadataProvider id="4789959214135422">
+      <individualName>
+        <givenName>Ute</givenName>
+        <surName>Kaden</surName>
+      </individualName>
+      <organizationName>UAF</organizationName>
+      <address>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99709</postalCode>
+      </address>
+      <phone phonetype="voice">9077503399</phone>
+      <electronicMailAddress>ukaden@alaska.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8965-2560</userId>
+    </metadataProvider>
+    <associatedParty id="5975527061546424">
+      <individualName>
+        <givenName>Ute</givenName>
+        <surName>Kaden</surName>
+      </individualName>
+      <organizationName>UAF</organizationName>
+      <positionName>Researcher</positionName>
+      <address>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99709</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">9077503399</phone>
+      <electronicMailAddress>ukaden@alaska.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8965-2560</userId>
+      <role>principalInvestigator</role>
+    </associatedParty>
+    <pubDate>2018-03-26</pubDate>
+    <abstract>
+      <para>High teacher turnover in rural Alaska is costly and prevents indigenous students from entering career pathways or college education.  To provide equity and access to quality education, Arctic Alaska needs a consistent and culturally responsive teacher workforce that is integrated into the community life. The dataset examines school characteristics, reading/writing, and mathematics test scores. students enrollment, teacher attrition, and related demographics variables of 78 rural Alaska schools.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Alaska</keyword>
+      <keyword>Alaska Teacher Retention</keyword>
+      <keyword>Culturally responsive teacher workforce</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+This work is dedicated to the public domain under the Creative Commons Universal 1.0 Public Domain Dedication.
+To view a copy of this dedication, visit https://creativecommons.org/publicdomain/zero/1.0/.
+</para>
+    </intellectualRights>
+    <distribution>
+      <offline>
+        <mediumName>digital </mediumName>
+      </offline>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Alaska School Districts</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-166.8361</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.5056</eastBoundingCoordinate>
+          <northBoundingCoordinate>77.8361</northBoundingCoordinate>
+          <southBoundingCoordinate>64.3389</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2009-01-03</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-12-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="9800365516884498">
+      <individualName>
+        <givenName>Ute</givenName>
+        <surName>Kaden</surName>
+      </individualName>
+      <organizationName>UAF</organizationName>
+      <address>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99709</postalCode>
+      </address>
+      <phone phonetype="voice">9077503399</phone>
+      <electronicMailAddress>ukaden@alaska.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8965-2560</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Archival Data Collection</title>
+            <para>Archival data were collected from the Alaska Department of Education (DEED) Database, DEED Workforce database, and AK Department of Labor. In addition, single school site report cards for test results on statewide Math, Reading, and Writing scores were included in this study. </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Factors Related to Teacher Retention in Arctic Alaska, an Integral Part of the Circumpolar North</title>
+      <personnel>
+        <individualName>
+          <givenName>Ute</givenName>
+          <surName>Kaden</surName>
+        </individualName>
+        <role>originator</role>
+      </personnel>
+      <funding>
+        <para>1203132</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>Alaska_Schools_Rentention2009_15.csv</entityName>
+      <entityDescription>The CSV file contains school characteristics, reading/writing, and mathematics test scores, students enrollment, teacher attrition, and related demographics variables of 78 rural Alaska schools.</entityDescription>
+      <physical scope="document">
+        <objectName>Alaska_Schools_Rentention2009_15.csv</objectName>
+        <size unit="bytes">17044</size>
+        <authentication method="SHA1">0db13dc156552c1e0a3b10f51b7815ad4ee57837</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:9e123f84-ce0d-4094-b898-c9e73680eafa</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>District.Name</attributeName>
+          <attributeDefinition>Shortened district name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Shortened district name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>District.ID</attributeName>
+          <attributeDefinition>Alaska Department of Education (AK DEED) District ID</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>AK DEED District ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>School.ID</attributeName>
+          <attributeDefinition>Alaska Department of Education (AK DEED) School ID</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>AK DEED School ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>School.Name</attributeName>
+          <attributeDefinition>Full school name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Full school name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Location</attributeName>
+          <attributeDefinition>Community</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Community</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="zPJtxRXcfn">
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>degrees</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <annotation id="lsazzv2P6T">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="latitude coordinate">http://purl.dataone.org/odo/ECSO_00002130</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="HAmK3ks3eQ">
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>degrees</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <annotation id="6IoLV3oMMn">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="longitude coordinate">http://purl.dataone.org/odo/ECSO_00002132</valueURI>
+          </annotation>
+        </attribute>
+        <attribute>
+          <attributeName>Lowest.Grade</attributeName>
+          <attributeDefinition>Lowest grade offered in school</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PE</code>
+                    <definition>Preschool</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>KG</code>
+                    <definition>Kindergarten</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Fifth Grade</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Sixth Grade</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Seventh Grade</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Ninth Grade</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Highest.Grade</attributeName>
+          <attributeDefinition>Highest grade offered in school</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Fifth Grade</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Sixth Grade</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Seventh Grade</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Eighth Grade</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>Tenth Grade</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>Twelfth Grade</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Title.I.Status.Count.5yrs</attributeName>
+          <attributeDefinition>Number of years school had Title I status out of 5 total years</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.Enrollment10.14.5yrs</attributeName>
+          <attributeDefinition>Average student enrollment over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.Enroll</attributeName>
+          <attributeDefinition>Standard deviation of student enrollment over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.S.Count.AYP.5yrs</attributeName>
+          <attributeDefinition>Average student count for assessment over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.S.Count.AYP.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of student count for assessment over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.S.P.Prof.R.5yrs</attributeName>
+          <attributeDefinition>Average percent of students who were proficient or better in Reading over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.S.P.Prof.R.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of the percent of students who were proficient or better in Reading over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.S.P.Prof.W.5yrs</attributeName>
+          <attributeDefinition>Average percent of students who were proficient or better in Writing over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.S.P.Prof.W.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of the percent of students who were proficient or better in Writing over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.S.P.Prof.M.5yrs</attributeName>
+          <attributeDefinition>Average percent of students who were proficient or better in Mathematics over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.S.P.Prof.M.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of the percent of students who were proficient or better in Mathematics over 5 years from sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.T.Count.5yrs</attributeName>
+          <attributeDefinition>Average count of teachers over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.T.Count.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of count of teachers over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.T.Retention.5yrs</attributeName>
+          <attributeDefinition>Average retention rate of teachers over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.Trentention.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of retention rate of teachers over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.Grad.5yrs</attributeName>
+          <attributeDefinition>Average student graduation rate over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.Grad.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of student graduation rate over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.Attend.5yrs</attributeName>
+          <attributeDefinition>Average student attendance rate over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.Attend.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of student attendance rate over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.P.S.Eth.AN.5yrs</attributeName>
+          <attributeDefinition>Average percent of students who identify with ethnicity of Alaska Native/American Indian over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Stdev.P.S.Eth.AN.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of percent of students who identify with ethnicity of Alaska Native/American Indian over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Avg.P.S.Gender.Male.5yrs</attributeName>
+          <attributeDefinition>Average percent of students who identify with gender of Male over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Dev.P.S.Gender.Male.5yrs</attributeName>
+          <attributeDefinition>Standard deviation of percent of students who identify with gender of Male over 5 years sy10-sy14</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="urn:uuid:c92492e5-c9fd-4ddd-b663-78d8b4625632" scope="document">
+      <entityName>Alaska_Schools_Rentention_Definitions.csv</entityName>
+      <entityDescription>This CSV file contains definitions and other metadata for the Alaska_Schools_Rentention2009_15.csv variables.  Most of the information is already defined in the attributes table for Alaska_Schools_Rentention2009_15.csv.</entityDescription>
+      <physical scope="document">
+        <objectName>Alaska_Schools_Rentention_Definitions.csv</objectName>
+        <size unit="bytes">5371</size>
+        <authentication method="SHA1">81238fd85261251f1fd5a6907a8e470c24821d30</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:c92492e5-c9fd-4ddd-b663-78d8b4625632</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="09a4284591002b8c110a5467b5a74f974c112fe0001" scope="document">
+      <entityName>Alaska_Schools_Retention2009_15.xlsx</entityName>
+      <entityDescription>This XLXS file contains the original data of Alaska_Schools_Rentention2009_15.csv and Alaska_Schools_Rentention_Definitions.csv.</entityDescription>
+      <physical scope="document">
+        <objectName>Alaska_Schools_Retention2009_15.xlsx</objectName>
+        <size>94784</size>
+        <authentication method="SHA1">09a4284591002b8c110a5467b5a74f974c112fe0</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="09a4284591002b8c110a5467b5a74f974c112fe0002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14736.1</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0002-8965-2560</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <unit id="percent" abbreviation="%" name="percent" parentSI="dimensionless" unitType="dimensionless">
+          <description>percent</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,21 @@
+name,value
+File_Name,Alaska_Schools_Rentention2009_15
+Date_Downloaded,2021-10-06 08:54:58
+Data_ID,urn:uuid:9e123f84-ce0d-4094-b898-c9e73680eafa
+Data_URL,https://arcticdata.io/metacat/d1/mn/v2/object/urn:uuid:9e123f84-ce0d-4094-b898-c9e73680eafa
+Metadata_ID,doi:10.18739/A2RV0D11H
+Metadata_URL,https://cn.dataone.org/cn/v2/object/doi:10.18739%2FA2RV0D11H
+Metadata_EML_Version,2.2.0
+File_Description,"The CSV file contains school characteristics, reading/writing, and mathematics test scores, students enrollment, teacher attrition, and related demographics variables of 78 rural Alaska schools."
+Dataset_URL,https://search.dataone.org/#view/doi:10.18739/A2RV0D11H
+Dataset_Title,"Alaska school characteristics and teacher retention, 2009-2015; Factors Related to Teacher Retention in Arctic Alaska, an Integral Part of the Circumpolar North"
+Dataset_StartDate,2009-01-03
+Dataset_EndDate,2015-12-30
+Dataset_Location,Alaska School Districts
+Dataset_WestBoundingCoordinate,-166.8361
+Dataset_EastBoundingCoordinate,-149.5056
+Dataset_NorthBoundingCoordinate,77.8361
+Dataset_SouthBoundingCoordinate,64.3389
+Dataset_Abstract,"High teacher turnover in rural Alaska is costly and prevents indigenous students from entering career pathways or college education.  To provide equity and access to quality education, Arctic Alaska needs a consistent and culturally responsive teacher workforce that is integrated into the community life. The dataset examines school characteristics, reading/writing, and mathematics test scores. students enrollment, teacher attrition, and related demographics variables of 78 rural Alaska schools."
+Dataset_Methods,"<title>Archival Data Collection</title><para>Archival data were collected from the Alaska Department of Education (DEED) Database, DEED Workforce database, and AK Department of Labor. In addition, single school site report cards for test results on statewide Math, Reading, and Writing scores were included in this study. </para>"
+Dataset_People,Ute; Kaden
